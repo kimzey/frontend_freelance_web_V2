@@ -1,0 +1,199 @@
+.Profile {
+  background: linear-gradient(to right, #5c59c3, #9ad3cc);
+  height: 100%;
+  padding: 2rem;
+  word-wrap:break-word;
+}
+
+.Profile .Profilecontainer {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 60vw;
+  margin: 3rem auto;
+  height: auto;
+}
+.Profile #text{
+  font-size: 4rem;
+  text-align: center;
+}
+
+.Profile #browsePic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Profile #displayPic {
+  max-width: 50%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Profile #displayPic img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.Profile .about{
+  padding: 2rem;
+}
+.Profile .about .subtext{
+  margin: 1rem;
+  font-size: 28px;
+  word-wrap:break-word;
+}
+.Profile .info{
+  height: auto;
+  padding: 1rem;
+}
+.Profile .Exp  {
+  padding: 2rem;
+  background-color: rgb(238, 238, 238);
+  border-radius: 1rem;
+}
+
+
+.Profile #showport {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Profile button:hover {
+  background-color: #807cf9;
+}
+
+.Profile button:active {
+  scale: 0.9;
+}
+
+.Profile #Edit_profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.Profile #btn_edit {
+  margin: 0;
+  padding: 1rem 2rem;
+}
+.Profile #btn_save {
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: rgb(247, 86, 86);
+}
+.Profile #btn_save:hover {
+  opacity: 0.9;
+}
+
+.Profile button {
+  background-color: #5c59c3;
+  color: white;
+  padding: 15px;
+  border: none;
+  font-size: 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 20px auto;
+  transition: background-color 0.3s ease-out, transform 0.3s ease-out;
+}
+
+
+/* CSS สำหรับไอแพด */
+@media only screen and (max-width: 950px) {
+  .Profile .Profilecontainer {
+    width: 80vw;
+    max-width: 600px;
+    padding: 20px;
+    height: auto;
+  }
+
+
+  .Profile #displayPic {
+    max-width: 50%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .Profile .about .subtext{
+    font-size: 24px;
+  }
+}
+
+/* โทสับ */
+@media only screen and (max-width: 560px) {
+  .Profile {
+    padding: 2rem;
+  }
+
+  .Profile .Profilecontainer {
+    width: 80vw;
+    padding: 1rem;
+    border-radius: 20px;
+  }
+
+  .Profile #displayPic {
+    max-width: 80%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .Profile #displayPic img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .Profile #showport {
+    height: auto;
+    width: 100%;
+  }
+
+  .Profile #Edit_profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .Profile #btn_edit {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .Profile button {
+    margin: 20px 0;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .Profile .about {
+    padding: 0.5rem;
+  }
+  .Profile .about .subtext{
+    margin: 1rem;
+    font-size: 16px;
+    word-wrap:break-word;
+  }
+  .Profile #btn_edit {
+    margin: 0;
+    padding: 1rem;
+  }
+  .Profile #btn_save {
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(247, 86, 86);
+  }
+}
+
+
+

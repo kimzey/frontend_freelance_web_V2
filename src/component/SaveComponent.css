@@ -1,0 +1,98 @@
+.save_com{
+    background: linear-gradient(to right, #5c59c3, #9ad3cc);
+    min-height: 100vh;
+    height: 100%;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.save_com .save_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.save_com #title{
+    text-align: center;
+    position: relative;
+}
+
+.save_com #back{
+    width: auto;
+}
+.save_com #btn_back{
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    top: 20%;
+    left: 25px;
+}
+.save_com #btn_back:hover{
+    opacity: 0.5;
+}
+.save_com #btn_back:active{
+    color: #6634db;
+}
+
+.save_com #profile_img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
+.save_com .title_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+}
+
+.save_com .btn{
+    border: 0;
+}
+.save_com .btn:hover{
+    opacity: 0.8;
+}
+.save_com .btn:active{
+    scale: 0.9;
+}
+
+.save_com .content{
+    word-wrap:break-word;
+    padding: 1rem;
+}
+.save_com .btn_page{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.save_com .btn_pages{
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: auto;
+}
+.save_com .btn_pages:hover{
+    opacity: 0.9;
+}
+.save_com .btn_pages:active{
+    scale: 0.9;
+}
+@media only screen and (max-width: 950px) {
+
+
+
+}
+@media only screen and (max-width: 560px) {
+
+
+}
+
+

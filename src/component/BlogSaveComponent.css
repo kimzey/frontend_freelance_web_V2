@@ -1,0 +1,79 @@
+.save_com .box{
+    width: 60vw;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    word-wrap:break-word;
+}
+.save_com .box .text_content{
+    background-color: rgb(238, 238, 238);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.save_com .box .By_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.save_com .box .contnet_img{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+.save_com .box .save{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    border: 0;
+    background-color: rgb(43, 43, 43);
+    border-radius: 1rem;
+    color: white;
+}
+.save_com .box .save:hover{
+    opacity: 0.9;
+}
+.save_com .box .save:active{
+    scale: 0.9;
+}
+@media only screen and (max-width: 950px) {
+
+    .save_com    .box{
+        width: 80vw;
+    }
+
+    .save_com .box .contnet_img{
+        max-width: 80%;
+    }
+}
+@media only screen and (max-width: 560px) {
+
+    .save_com .box{
+        width: 90vw;
+    }
+
+    .save_com .box .contnet_img{
+        max-width: 100%;
+    }
+    .save_com .box .text_content{
+
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+    .save_com .box .save{
+        padding: 0.3rem;
+    }
+}
